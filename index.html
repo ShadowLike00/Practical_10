@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime World</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1><center><B><U><I><center>Greedy ZenX</center></I></U></B></center></h1>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#anime-list">Anime List</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main id="content">
+    <section id="home">
+      <h1>Welcome to Anime World</h1>
+      <p style="color: black;">Explore your favorite anime series and characters.</p>
+    </section>
+    
+    <section id="anime-list">
+      <h2>Top Anime Series</h2>
+      <div class="anime-grid">
+        <div class="anime-item">
+          <img src="aot.jpg" alt="Anime 1">
+          <h3>Attack on Titan</h3>
+          <p>A battle for humanity against the titans.</p>
+        </div>
+        <div class="anime-item">
+          <img src="mha.jpg" alt="Anime 2">
+          <h3>My Hero Academia</h3>
+          <p>A world of heroes, and one boy's journey to greatness.</p>
+        </div>
+        <!-- Add more anime here -->
+      </div>
+    </section>
+    
+    <section id="reviews">
+      <h2>Latest Reviews</h2>
+      <div id="review-section">
+        <p style="color: black;">No reviews yet. Submit yours below!</p>
+      </div>
+      <form id="review-form">
+        <input type="text" id="username" placeholder="Your Name" required>
+        <textarea id="review" placeholder="Your Review" required></textarea>
+        <button type="submit">Submit Review</button>
+      </form>
+    </section>
+    
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
