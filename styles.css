@@ -33,12 +33,9 @@ body {
     padding: 20px;
   }
   
-  h1, h2 {
+  h1, h2, h3 {
     color: #e74c3c;
   }
-h3 {
-    color: #000000;
-}
   
   .anime-grid {
     display: grid;
